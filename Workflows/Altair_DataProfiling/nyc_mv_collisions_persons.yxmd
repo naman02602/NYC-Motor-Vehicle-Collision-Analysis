@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="139" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Person.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNIQUE_ID" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COLLISION_ID" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_DATE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_TIME" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_ID" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_TYPE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_INJURY" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="VEHICLE_ID" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_AGE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EJECTION" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EMOTIONAL_STATUS" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="BODILY_INJURY" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="POSITION_IN_VEHICLE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="SAFETY_EQUIPMENT" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_LOCATION" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ACTION" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COMPLAINT" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ROLE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_SEX" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="175" y="139" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="UNIQUE_ID" selected="True" />
+            <Field field="COLLISION_ID" selected="True" />
+            <Field field="CRASH_DATE" selected="True" />
+            <Field field="CRASH_TIME" selected="True" />
+            <Field field="PERSON_ID" selected="True" />
+            <Field field="PERSON_TYPE" selected="True" />
+            <Field field="PERSON_INJURY" selected="True" />
+            <Field field="VEHICLE_ID" selected="True" />
+            <Field field="PERSON_AGE" selected="True" />
+            <Field field="EJECTION" selected="True" />
+            <Field field="EMOTIONAL_STATUS" selected="True" />
+            <Field field="BODILY_INJURY" selected="True" />
+            <Field field="POSITION_IN_VEHICLE" selected="True" />
+            <Field field="SAFETY_EQUIPMENT" selected="True" />
+            <Field field="PED_LOCATION" selected="True" />
+            <Field field="PED_ACTION" selected="True" />
+            <Field field="COMPLAINT" selected="True" />
+            <Field field="PED_ROLE" selected="True" />
+            <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+            <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+            <Field field="PERSON_SEX" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNIQUE_ID" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COLLISION_ID" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_DATE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_TIME" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_ID" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_TYPE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_INJURY" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="VEHICLE_ID" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_AGE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EJECTION" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EMOTIONAL_STATUS" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="BODILY_INJURY" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="POSITION_IN_VEHICLE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="SAFETY_EQUIPMENT" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_LOCATION" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ACTION" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COMPLAINT" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ROLE" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_SEX" size="254" source="File: C:\Users\naman\Downloads\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="307" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings>
+        <Position x="307" y="151" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">UNIQUE_ID=True,COLLISION_ID=True,CRASH_DATE=True,CRASH_TIME=True,PERSON_ID=True,PERSON_TYPE=True,PERSON_INJURY=True,VEHICLE_ID=True,PERSON_AGE=True,EJECTION=True,EMOTIONAL_STATUS=True,BODILY_INJURY=True,POSITION_IN_VEHICLE=True,SAFETY_EQUIPMENT=True,PED_LOCATION=True,PED_ACTION=True,COMPLAINT=True,PED_ROLE=True,CONTRIBUTING_FACTOR_1=True,CONTRIBUTING_FACTOR_2=True,PERSON_SEX=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jagru\AppData\Local\Temp\Engine_18572_affd6faa90376c4fb7a90ab2f58740ea_\Engine_18572_fa976c8990fd714e8ca373db3469461f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="510" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jagru\AppData\Local\Temp\Engine_18572_affd6faa90376c4fb7a90ab2f58740ea_\Engine_18572_00aea57bd7b17d479e04434994199d47~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jagru\AppData\Local\Temp\Engine_18572_affd6faa90376c4fb7a90ab2f58740ea_\Engine_18572_fa0393c93efda24db9ff869e12d3da74~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="510" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jagru\AppData\Local\Temp\Engine_18572_affd6faa90376c4fb7a90ab2f58740ea_\Engine_18572_8415f16f7107d84ca67e0e4c22d3408c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Interactive" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Reports" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>nyc_mv_collisions_persons</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="485dba71-ecec-455f-bebb-3b90e4453544" />
+      <Telemetry>
+        <PreviousWorkflowId value="20035a6f-1e86-4ae4-bfa3-144e39d6f814" />
+        <OriginWorkflowId value="b83afb65-9c44-480e-a0ad-e42c8e943fbf" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

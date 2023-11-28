@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* 
+from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <SessionReadOnly>True</SessionReadOnly>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=Google BigQuery
+Query=select nyc_mv_nypd_mv_collis...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="borough" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="contributing_factor_vehicle_1" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="contributing_factor_vehicle_2" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="contributing_factor_vehicle_3" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="contributing_factor_vehicle_4" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="contributing_factor_vehicle_5" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="cross_street_name" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="timestamp" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="DateTime" />
+            <Field name="latitude" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Double" />
+            <Field name="longitude" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Double" />
+            <Field name="location" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="number_of_cyclist_injured" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_cyclist_killed" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_motorist_injured" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_motorist_killed" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_pedestrians_injured" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_pedestrians_killed" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_persons_injured" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_persons_killed" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="off_street_name" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="on_street_name" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="unique_key" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="vehicle_type_code1" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="vehicle_type_code2" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="vehicle_type_code_3" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="vehicle_type_code_4" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="vehicle_type_code_5" size="16384" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_WString" />
+            <Field name="zip_code" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="342" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="342" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">Item Number=True,Category Name=True,Item Description=True,Vendor=True,Vendor Name=True,Bottle Volume (ml)=True,Pack=True,Inner Pack=True,Age=True,Proof=True,List Date=True,UPC=True,SCC=True,State Bottle Cost=True,State Case Cost=True,State Bottle Retail=True,Report Date=True,DI_CreateDate=False,DI_WorkflowFileName=False</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jagru\AppData\Local\Temp\Engine_22648_163a0a98cb02e9489338b052c5c3ae3d_\Engine_22648_5e4f472d8d268b45a438c5f440eb4f58~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jagru\AppData\Local\Temp\Engine_22648_163a0a98cb02e9489338b052c5c3ae3d_\Engine_22648_b8fe6da70b48e042a7e642f2b3e4c17c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jagru\AppData\Local\Temp\Engine_22648_163a0a98cb02e9489338b052c5c3ae3d_\Engine_22648_e257b08e19b30945833fee9868d34822~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jagru\AppData\Local\Temp\Engine_22648_163a0a98cb02e9489338b052c5c3ae3d_\Engine_22648_f490f10abcd9d44c8323b576201c39dc~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="198" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="borough" selected="True" />
+            <Field field="contributing_factor_vehicle_1" selected="True" />
+            <Field field="contributing_factor_vehicle_2" selected="True" />
+            <Field field="contributing_factor_vehicle_3" selected="True" />
+            <Field field="contributing_factor_vehicle_4" selected="True" />
+            <Field field="contributing_factor_vehicle_5" selected="True" />
+            <Field field="cross_street_name" selected="True" />
+            <Field field="location" selected="True" />
+            <Field field="off_street_name" selected="True" />
+            <Field field="on_street_name" selected="True" />
+            <Field field="vehicle_type_code1" selected="True" />
+            <Field field="vehicle_type_code2" selected="True" />
+            <Field field="vehicle_type_code_3" selected="True" />
+            <Field field="vehicle_type_code_4" selected="True" />
+            <Field field="vehicle_type_code_5" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="borough" size="13" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="contributing_factor_vehicle_1" size="53" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="contributing_factor_vehicle_2" size="53" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="contributing_factor_vehicle_3" size="53" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="contributing_factor_vehicle_4" size="53" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="contributing_factor_vehicle_5" size="43" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="cross_street_name" size="32" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="timestamp" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="DateTime" />
+            <Field name="latitude" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Double" />
+            <Field name="longitude" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Double" />
+            <Field name="location" size="25" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="number_of_cyclist_injured" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_cyclist_killed" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_motorist_injured" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_motorist_killed" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_pedestrians_injured" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_pedestrians_killed" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_persons_injured" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="number_of_persons_killed" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="off_street_name" size="40" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="on_street_name" size="32" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="unique_key" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+            <Field name="vehicle_type_code1" size="30" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="vehicle_type_code2" size="30" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="vehicle_type_code_3" size="30" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="vehicle_type_code_4" size="30" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="vehicle_type_code_5" size="30" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="V_String" />
+            <Field name="zip_code" source="File: odbc:DSN=Google BigQuery|||select nyc_mv_nypd_mv_collisions.* &#xA;from nyc_mv.nypd_mv_collisions nyc_mv_nypd_mv_collisions" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Reports" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="4" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>nyc_mv_collisions_bigquery</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="19669845-014e-42df-aa25-c32c53868f71" />
+      <Telemetry>
+        <PreviousWorkflowId value="c9b446ed-ecd3-43fc-a511-a1e5371b21ef" />
+        <OriginWorkflowId value="c9b446ed-ecd3-43fc-a511-a1e5371b21ef" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
